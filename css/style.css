@@ -1,0 +1,34 @@
+body {
+    background-color: #23353F;
+}
+
+nav {
+    box-shadow: 1px 1px 20px black;
+}
+
+.welcome {
+    box-shadow: 5px 5px 50px black;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+.log-in, .sign-up {
+    box-shadow: 10px 10px 50px black;
+    width: 65%;
+}
+
+input {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: white !important;
+}
+
+input:focus {
+    border-color: #7EB0ED;
+}
+
+::placeholder {
+    color: #A1A3A5 !important;
+}
